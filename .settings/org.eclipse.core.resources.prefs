@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//example/droid_sensor.py=utf-8
+encoding//example/droid_sensor_172.py=utf-8
+encoding//example/droid_sensor_cherrypy_server.py=utf-8
+encoding//example/echo_cherrypy_server.py=utf-8
+encoding//example/echo_gevent_server.py=utf-8
+encoding//ws4py/client/__init__.py=utf-8
+encoding//ws4py/client/geventclient.py=utf-8

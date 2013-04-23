@@ -76,8 +76,8 @@ class WebSocketBaseClient(WebSocket):
         elif scheme == "wss":
             if not self.port:
                 self.port = 443
-        else:
-            raise ValueError("Invalid scheme: %s" % scheme)
+#        else:
+#            raise ValueError("Invalid scheme: %s" % scheme)
 
         if parsed.path:
             resource = parsed.path

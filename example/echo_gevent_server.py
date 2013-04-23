@@ -141,7 +141,7 @@ if __name__ == '__main__':
     configure_logger()
 
     parser = argparse.ArgumentParser(description='Echo gevent Server')
-    parser.add_argument('--host', default='127.0.0.1')
+    parser.add_argument('--host', default='192.168.1.17')
     parser.add_argument('-p', '--port', default=9000, type=int)
     args = parser.parse_args()
 

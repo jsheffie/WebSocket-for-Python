@@ -95,7 +95,7 @@ class AirPongWebSocketClient(WebSocketClient):
             pass
 
 if __name__ == '__main__':
-    aps = AirPongSensor(host='http://192.168.1.17:9000/ws')
+    aps = AirPongSensor(host='http://172.16.98.13:9000/ws')
     try:
         aps.run()
     except KeyboardInterrupt:
